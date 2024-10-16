@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 25px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 60px;
+}
+
+header ul li .logo-netflix{
+    height: 25px;
+    list-style: none;
+    
+    
+}
+header ul li .icon-user{
+    height: 25px;
+    list-style: none;
+}
+
+main video{
+    width: 100vw;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+
+}
+
+.thumb{
+    z-index: 10;
+    position: absolute;
+    bottom: 16%;
+    color: #eee;
+    margin: auto 60px;
+    max-width: 50%;
+
+}
+
+.thumb .thumb-title{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.thumb .description{
+    font-size: 20px;
+}
+
+.thumb .buttons{
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.thumb .link-watch{
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    
+    font-weight: 500;
+}
+.thumb .more-info{
+    background-color: #ffffff63;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+
+main .img-thumbs{
+    height: 150px;
+
+}
+
+.title-carosel{
+    font-size: 30px;
+    color: #eee;
+}
+
+#carouselExampleControls{
+    background-color: transparent;
+    position: absolute;
+    bottom:-17%;
+    left: 50px;
+}
